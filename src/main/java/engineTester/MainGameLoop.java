@@ -28,8 +28,8 @@ public class MainGameLoop {
         };
 
         int[] indices = {
-          0,1,3,
-          3,1,2
+                0, 1, 3,
+                3, 1, 2
 
         };
 
