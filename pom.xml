@@ -32,6 +32,7 @@
             <url>http://clojars.org/repo/</url>
         </repository>
     </repositories>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/slick-util/slick-util -->
         <dependency>
@@ -45,6 +46,13 @@
             <artifactId>lwjgl</artifactId>
             <version>2.9.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.lwjgl.lwjgl/lwjgl_util -->
+        <dependency>
+            <groupId>org.lwjgl.lwjgl</groupId>
+            <artifactId>lwjgl_util</artifactId>
+            <version>2.9.3</version>
+        </dependency>
+
 
     </dependencies>
 </project>

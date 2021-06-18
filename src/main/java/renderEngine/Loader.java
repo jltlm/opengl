@@ -50,15 +50,12 @@ public class Loader {
 
         for (int vao : vaos) {
             GL30.glDeleteVertexArrays(vao);
-
         }
         for (int vbo : vbos) {
             GL15.glDeleteBuffers(vbo);
-
         }
         for (int texture : textures) {
             GL11.glDeleteTextures(texture);
-
         }
     }
 
@@ -68,8 +65,6 @@ public class Loader {
         vaos.add(vaoID);
 
         return vaoID;
-
-
     }
 
     private void storeDataInAttributeList(int attributeNumber, int coordinateSize, float[] data) {
